@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import Title from './Title'
+import React, { useState } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <Title />
-    </div>
-  );
-}
+import Container from 'react-bootstrap/Container';
+import Navigation from './components/navbar/index';
+import './App.css';
+
+
+const App = () => (
+  <Container className="p-3">
+    <Navigation />
+  </Container>
+);
 
 export default App;
