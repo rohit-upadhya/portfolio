@@ -8,11 +8,11 @@ const Navigation = () => {
             <Container>
                 <Navbar.Brand href="#home">
                     <div>
-                        <h3>
+                        <h2>
                             Rohit Upadhya
-                        </h3>
+                        </h2>
                         <p>
-                            Software Engineer @ Lowe's
+                            Software Engineer <strong>@Lowe's</strong>
                         </p>
                     </div>
                 </Navbar.Brand>
