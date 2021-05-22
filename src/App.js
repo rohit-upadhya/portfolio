@@ -7,10 +7,10 @@ import './App.css';
 
 
 const App = () => (
-  <>
+  <div className='background'>
     <Navigation />
      <Home />
-  </>
+  </div>
 );
 
 export default App;
