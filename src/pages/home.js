@@ -6,9 +6,11 @@ import ReactPlayer from "react-player";
 import '../App.css';
 
 const title = "Hi There!";
-const aboutMe = `I am a Software Engineer based in Bangalore, India. I hail from the Scotland of the East - Shillong. \n
- I like to code in Java, Python and Javascript.\n`;
-
+const aboutMe = `I am a Software Engineer based in Bangalore, India. I hail from the lovely city of Shillong, which is also known as the Scotland of the East. I am an avid programmer and I mostly code in Java, Python & JavaScript.
+ I like to keep myself updated on all the new things happening in the world of Technology. I have a keen interest in Cryptography and Machine Learning as well.
+ Theory of Computation, Automata Theory and Turing Machines are topics that I like to visit often and ponder over. Currently, however, I am also trying to understand and aplly Blockchain technology in my projects.`;
+const interests = `Besides being a little bit geeky, I also enjoy reading. I am especially fond of Japanese writers. I like to cook often, mostly Indian. I enjoy speaking publically, i like to make my ideas heard and understood. 
+I also enjoy playing games, I absolutely enjoy Age of Empires and other stratergy games. Lastly, although I am a novice at this, I also like to write.`;
 
 const RightSmall = () => {
     return (
@@ -32,7 +34,7 @@ const RightSmall = () => {
                         <Card.Body>
                             <Card.Title>{title}</Card.Title>
                             <Card.Text>
-                                {aboutMe}
+                                {aboutMe} <br></br>
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -80,8 +82,9 @@ const RightBig = () => {
                             {/* <Card.Img variant="top" src={profile} /> */}
                              <Card.Body>
                                 <Card.Title>{title}</Card.Title>
-                                <Card.Text>
-                                    {aboutMe}
+                                <Card.Text className='fonty'>
+                                    {aboutMe} <br></br>
+                                    {interests}
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -96,7 +99,13 @@ const RightBig = () => {
 const PartOne = () => {
     return (
         <Container>
-            <div style={{
+                <Container style={{
+                    
+                }}>
+                    <RightBig />
+                </Container>
+
+            {/* <div style={{
                 height: "100%",
                 width: "50%",
                 position: "fixed",
@@ -129,7 +138,7 @@ const PartOne = () => {
                     </h3>
                     <YoutubeVideo />
                 </Container>
-            </div>
+            </div> */}
         </Container>
     );
 }
