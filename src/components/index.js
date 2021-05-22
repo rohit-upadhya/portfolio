@@ -5,7 +5,6 @@ const Navigation = () => {
     return (
         <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Container>
                 <Navbar.Brand href="#home">
                     <div>
                         <h2>
@@ -30,7 +29,6 @@ const Navigation = () => {
                         <Nav.Link href="#pricing"><Button variant="outline-light">ABOUT</Button></Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
-                </Container>
              </Navbar>
       </>
     );
