@@ -12,7 +12,7 @@ const BigScreen = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="#pricing">Email Me!</Nav.Link>
+                        <Nav.Link href="mailto:rohitupadhya18@gmial.com">Email Me!</Nav.Link>
                         <Nav.Link href="https://drive.google.com/file/d/1NKcttB6ME3VeBxgOeo_w0k9n_2_d9I03/view?usp=sharing" target="_blank">Resume</Nav.Link>
                     </Nav>
                     <Nav className="mr-auto">
@@ -53,7 +53,7 @@ const SmallScreen = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="#pricing">Email Me!</Nav.Link>
+                        <Nav.Link href="mailto:rohitupadhya18@gmial.com">Email Me!</Nav.Link>
                         <Nav.Link href="https://drive.google.com/file/d/1NKcttB6ME3VeBxgOeo_w0k9n_2_d9I03/view?usp=sharing" target="_blank">Resume</Nav.Link>
                     </Nav>
                     <Nav>
