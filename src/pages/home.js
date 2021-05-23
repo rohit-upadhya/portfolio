@@ -4,6 +4,7 @@ import {Container, Card, Button, Jumbotron, Col, Row} from 'react-bootstrap'
 import Media from 'react-media';
 import ReactPlayer from "react-player";
 import '../App.css';
+import TimeLine from '../components/timeline'
 
 const title = "Hi There!";
 const aboutMe = `I am a Software Engineer based in Bangalore, India. I hail from the lovely city of Shillong, which is also known as the Scotland of the East. I am an avid programmer and I mostly code in Java, Python & JavaScript.
@@ -64,12 +65,12 @@ const YoutubeVideo = () => {
 
 const RightBig = () => {
     return (
-        <Jumbotron style={{ height: '15%', backgroundColor: "#404040" }}>
+        <Jumbotron style={{ height: '15%', backgroundColor: "#404040", width: '100%' }}>
             <Container >
                 <Row>
                     <Col>
-                        <Card style={{ width: '100%' }}> 
-                            <Card.Img variant="top" src={profile} />
+                        <Card style={{ width: '100%', height: '463px' }}> 
+                            <Card.Img variant="bottom" src={profile} />
                             {/* <Card.Body>
                                 <Card.Title>Hi There!</Card.Title>
                                 <Card.Text>
@@ -78,13 +79,13 @@ const RightBig = () => {
                         </Card>
                     </Col>
                     <Col style={{ width: '' }}>
-                        <Card> 
+                        <Card style={{ width: '100%', height: '463px'}} > 
                             {/* <Card.Img variant="top" src={profile} /> */}
                              <Card.Body>
                                 <Card.Title>{title}</Card.Title>
                                 <Card.Text className='fonty'>
                                     {aboutMe} <br></br>
-                                    {interests}
+                                    {/* {interests} */}
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -100,52 +101,28 @@ const PartOne = () => {
     return (
         <Container>
                 <Container style={{
-                    
+                    width: '100%',
+                    paddingBottom: '110px',
+                    paddingTop : '50px'
                 }}>
                     <RightBig />
                 </Container>
-
-            {/* <div style={{
-                height: "100%",
-                width: "50%",
-                position: "fixed",
-                zIndex: "1",
-                top: "1",
-                padding: "20px",
-                left: "0"
-            }} className='background'>
-                <Container style={{
-                    
-                }}>
-                    <RightBig />
-                </Container>
-            </div>
-            <div style={{
-                height: "100%",
-                width: "50%",
-                position: "fixed",
-                zIndex: "1",
-                top: "1",
-                padding: "20px",
-                right: "0",
-                backgroundColor: "#404040"
-            }} className='background'>
-                <Container style={{
-                    
-                }}>
-                    <h3 className='fonty'>
-                        Video of the Week!
-                    </h3>
-                    <YoutubeVideo />
-                </Container>
-            </div> */}
         </Container>
     );
 }
 
 const PartTwo = () => {
     return (
-        <> </>
+        <Container > 
+            <TimeLine />
+        </Container>
+    );
+}
+
+const PartOneHalf = () => {
+    return (
+        <Container style={{padding: "90px"}}>
+        </Container>
     );
 }
 
@@ -162,7 +139,7 @@ const ScreenSize = () => {
                             <RightSmall />
                 }
                 {matches.medium && 
-                        <PartOne />}
+                        <RightSmall />}
                 {matches.large && 
                         <PartOne />}
               </>
@@ -175,6 +152,8 @@ const Home = () => {
     return (
         <Container>
             <ScreenSize />
+            {/* <PartOneHalf /> */}
+            <PartTwo />
         </Container>
         
     );
