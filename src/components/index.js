@@ -7,9 +7,9 @@ const Navigation = () => {
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top" >
                 <Navbar.Brand href="#home">
                     <div>
-                        <h2>
+                        <h3>
                             Rohit Upadhya
-                        </h2>
+                        </h3>
                         <p>
                             Software Engineer <strong>@Lowe's</strong>
                         </p>

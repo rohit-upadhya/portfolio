@@ -5,9 +5,9 @@ import Container from 'react-bootstrap/Container';
 const TimeLine = () => {
     return(
         <Container>
-            <Container class='fontywhite' style={{ paddingBottom: '40px'}}>
-                <h1>
-                    My Timeline
+            <Container style={{ paddingBottom: '40px'}}>
+                <h1 class='fontywhite'>
+                    Timeline
                 </h1>
             </Container>
             <div class="container">
@@ -57,8 +57,7 @@ const TimeLine = () => {
                                 <p class="description fontywhite">
                                     {'\u2022'}Worked on Machine Learning Algorithms. Built a Digit and Binary Classifier usiing Convolutional Neural Network.
                                     <br/>
-                                    {'\u2022'}Implemented the &sigma;-LFSR in C<br/>
-                                    {'\u2022'}Published a Book Chapter on the Applicability of Stream Ciphers in Crowd Computing. The complete paper can be found <a href="https://www.researchgate.net/publication/333962798_Applicability_of_Lightweight_Stream_Cipher_in_Crowd_Computing_A_Detailed_Survey_and_Analysis">here.</a><br/>
+                                    {'\u2022'}Worked as the tech person for the Guide's NGO, helping develop <a href='http://nurture1729.esy.es/'>this</a> website.
                                 </p>
                             </div>
                         </div>
@@ -97,7 +96,7 @@ const TimeLine = () => {
                                 <div class="date-outer">
                                     <span class="date">
                                             <span class="month"></span>
-                                    <span class="year">2019</span>
+                                    <span class="year">2015-<br/>2019</span>
                                     </span>
                                 </div>
                             </div>
