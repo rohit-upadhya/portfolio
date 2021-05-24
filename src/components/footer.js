@@ -6,7 +6,7 @@ import ReactLogo from '../static/react.svg';
 const BigScreen = () => {
     return (
         <>
-            <Navbar  bg="dark" variant="dark" sticky="bottom">
+            <Navbar  bg="dark" variant="dark" sticky="bottom" class="footer">
                 <Navbar.Brand href="#home">
                 </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -47,7 +47,7 @@ const BigScreen = () => {
 const SmallScreen = () => {
     return(
         <>
-            <Navbar  bg="dark" variant="dark" sticky="bottom">
+            <Navbar  bg="dark" variant="dark" sticky="bottom" class="footer">
                 <Navbar.Brand href="#home">
                 </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

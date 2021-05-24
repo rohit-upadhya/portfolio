@@ -9,7 +9,12 @@
 .background-top {
   background-color: #404040;
   position: relative;
-  top: -20px;
+  margin-top: -20px;
+}
+
+.footer {
+  position: relative;
+  top: 20px;
 }
 
 .fonty {
