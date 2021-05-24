@@ -8,7 +8,7 @@ import './App.css';
 
 
 const App = () => (
-  <div className='background'>
+  <div className='background-top'>
     <Navigation />
      <Home />
     <Footer />

@@ -6,6 +6,12 @@
   background-color: #404040;
 }
 
+.background-top {
+  background-color: #404040;
+  position: relative;
+  top: -1rem;
+}
+
 .fonty {
   font-family: 'Times New Roman', Times, serif;
   color: '#000000';
