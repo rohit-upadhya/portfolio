@@ -9,7 +9,7 @@ import './App.css';
 
 const App = () => (
   <div className='background'>
-    <Navigation />
+    <Navigation style={{top: '0', position: fixed}} />
      <Home />
     <Footer />
   </div>
