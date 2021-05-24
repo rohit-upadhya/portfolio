@@ -4,7 +4,7 @@ import {Navbar, Nav, Container, Button} from 'react-bootstrap'
 const Navigation = () => {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top" style={{top: '0'}}>
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top" style={{position:'relative', top: '0px'}}>
                 <Navbar.Brand href="#home">
                     <div>
                         <h3>
