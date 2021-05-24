@@ -2,6 +2,9 @@
   "homepage": "https://rohit-upadhya.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.x"
+  },
   "private": true,
   "dependencies": {
     "bootstrap": "^4.6.0",
