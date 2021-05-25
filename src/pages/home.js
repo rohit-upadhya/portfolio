@@ -7,7 +7,7 @@ import '../App.css';
 import TimeLine from '../components/timeline'
 
 const title = "Hi There!";
-const aboutMe = `I am a Software Engineer based in Bangalore, India. I hail from the lovely city of Shillong, which is also known as the Scotland of the East. I am an avid programmer and I mostly code in Java, Python & JavaScript. I like to keep myself updated on all the new things happening in the world of Technology. I have a keen interest in Cryptography and Machine Learning as well. Theory of Computation, Automata Theory, and Turing Machines are topics that I like to visit often and ponder over. Currently, however, I am also trying to understand and apply Blockchain technology in my projects.`;
+const aboutMe = `I am a Software Engineer based in Bangalore, India. I hail from the lovely city of Shillong, also known as the Scotland of the East. I am an avid programmer and I mostly code in Java, Python & JavaScript. I like to keep myself updated on all the new things happening in the world of Technology. I have a keen interest in Cryptography and Machine Learning as well. Theory of Computation, Automata Theory, and Turing Machines are topics that I like to visit often and ponder over. Currently, however, I am also trying to understand and apply Blockchain technology in my projects.`;
 const interests = `Besides being a little bit geeky, I also enjoy reading. I am especially fond of Japanese writers. I like to cook often, mostly Indian. I enjoy speaking publically, i like to make my ideas heard and understood. 
 I also enjoy playing games, I absolutely enjoy Age of Empires and other stratergy games. Lastly, although I am a novice at this, I also like to write.`;
 
@@ -100,7 +100,7 @@ const PartOne = () => {
         <Container>
                 <Container style={{
                     width: '100%',
-                    paddingBottom: '110px',
+                    paddingBottom: '50px',
                     paddingTop : '50px'
                 }}>
                     <RightBig />
