@@ -24,7 +24,7 @@ const Navigation = () => {
                         <Nav.Link href="#pricing">ABOUT</Nav.Link> */}
                     </Nav>
                     <Nav>
-                        <Nav.Link href="/portfolio/blog"><Button variant="outline-light">BLOG</Button></Nav.Link>
+                        <Nav.Link href="#"><Button variant="outline-light">BLOG</Button></Nav.Link>
                         <Nav.Link href="#pricing"><Button variant="outline-light">RESEARCH</Button></Nav.Link>
                         <Nav.Link href="#pricing"><Button variant="outline-light">ABOUT</Button></Nav.Link>
                     </Nav>
