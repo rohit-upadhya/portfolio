@@ -5,7 +5,7 @@ const Navigation = () => {
     return (
         <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top" style={{position:'relative', top: '0px'}}>
-                <Navbar.Brand href="/">
+                <Navbar.Brand href="/portfolio">
                     <div>
                         <h3>
                             Rohit Upadhya
@@ -24,7 +24,7 @@ const Navigation = () => {
                         <Nav.Link href="#pricing">ABOUT</Nav.Link> */}
                     </Nav>
                     <Nav>
-                        <Nav.Link href="/blog"><Button variant="outline-light">BLOG</Button></Nav.Link>
+                        <Nav.Link href="/portfolio/blog"><Button variant="outline-light">BLOG</Button></Nav.Link>
                         <Nav.Link href="#pricing"><Button variant="outline-light">RESEARCH</Button></Nav.Link>
                         <Nav.Link href="#pricing"><Button variant="outline-light">ABOUT</Button></Nav.Link>
                     </Nav>
