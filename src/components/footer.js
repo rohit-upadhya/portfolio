@@ -13,7 +13,7 @@ const BigScreen = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link href="mailto:rohitupadhya18@gmial.com">Email Me!</Nav.Link>
-                        <Nav.Link href="https://drive.google.com/file/d/1NKcttB6ME3VeBxgOeo_w0k9n_2_d9I03/view?usp=sharing" target="_blank">Resume</Nav.Link>
+                        <Nav.Link href="https://drive.google.com/file/d/1YGXW1fbWnOO1JiuoM6THToXZDS2ARR8y/view?usp=sharing" target="_blank">Resume</Nav.Link>
                     </Nav>
                     <Nav className="mr-auto">
                         <Nav.Link href="https://reactjs.org/" target="_blank">Made With <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
@@ -54,7 +54,7 @@ const SmallScreen = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link href="mailto:rohitupadhya18@gmial.com">Email Me!</Nav.Link>
-                        <Nav.Link href="https://drive.google.com/file/d/1NKcttB6ME3VeBxgOeo_w0k9n_2_d9I03/view?usp=sharing" target="_blank">Resume</Nav.Link>
+                        <Nav.Link href="https://drive.google.com/file/d/1YGXW1fbWnOO1JiuoM6THToXZDS2ARR8y/view?usp=sharing" target="_blank">Resume</Nav.Link>
                     </Nav>
                     <Nav>
                         <Nav.Link href="https://github.com/rohit-upadhya" target="_blank"><Button variant="secondary">
